@@ -2,7 +2,7 @@
 
 crow::response greet()
 {
-    return crow::response{""};
+    return crow::response{"hello world"};
 }
 crow::response add(const crow::request &req)
 {
